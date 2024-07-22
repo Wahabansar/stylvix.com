@@ -1,0 +1,84 @@
+.topbar {
+    background: black;
+    padding: 10px 0;
+    color: white;
+}
+
+.topbar .flag-sec {
+    border-right: 2px solid rgba(255, 255, 255, 1);
+}
+
+.topbar .btn-sec {
+    border-left: 2px solid white;
+}
+
+.topbar .sign-in-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 0;
+}
+
+.navigation-bar-frist .search-icons .form-control {
+    padding: 6px 25px 6px 3px;
+    border-bottom: 2px solid black !important;
+    border-radius: 0;
+    border: none;
+    font-size: 14px;
+}
+
+.navigation-bar-frist .search-icons .form-control:focus {
+    box-shadow: none !important;
+}
+
+.navigation-bar-frist .search-icons .search {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.navigation-bar-frist .search-icons ::placeholder {
+font-size: 14px;
+}
+.badge {
+    padding: 2px 4px !important;
+    font-size: 9px !important;
+    right: -17px !important;
+}
+.navigation-bar-frist .frist-navbar-border {
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 22px;
+}
+
+
+
+@media (max-width:576px) {
+    .topbar span{
+        font-size: 14px;
+    }
+  
+    .topbar .user-svg{
+      width: 13px !important;
+      height: auto!important;
+    }
+    .topbar .sign-in-svg{
+      width: 15px !important;
+      height: auto!important;
+    }
+    .topbar .sign-in-btn {
+ font-size: 14px;
+    }
+    .navigation-bar-second .second-navbar-logo{
+        width: 130px !important;
+        height: auto !important;
+    }
+
+}

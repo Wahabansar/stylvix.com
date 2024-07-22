@@ -1,0 +1,810 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* topbardiv start */
+.topbar {
+  background-color: #000000;
+}
+.topul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.topul li {
+  margin-right: 1rem; /* Adjust the value as needed */
+}
+
+.topul li:last-child {
+  margin-right: 0;
+}
+
+.text-white {
+  color: white;
+}
+.topbartxt {
+  color: white;
+  text-decoration: none;
+}
+/* topbardiv end */
+
+.navtoplst {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 26px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.iconnav {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 17px;
+  align-items: center;
+}
+.primarynavbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form */
+}
+.search-form .form-control {
+  flex: 1; /* Grow to fill remaining space */
+}
+.search-form button {
+  background-color: white; /* Bootstrap primary color */
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.srchboxnav {
+  border: none;
+  border-bottom: 2px solid #000; /* Adjust color and thickness as needed */
+  padding: 0;
+}
+
+.stylelogo {
+  margin-top: 10px;
+}
+.horizontal-line {
+  border: none;
+  border-top: 2px solid #000; /* Black solid border, adjust thickness and color as needed */
+  margin: 20px 0; /* Optional: Adjust margin for spacing */
+}
+.navmenutxt {
+  font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #252525;
+}
+.hrdiv {
+  margin: auto;
+  width: 83%;
+}
+.navbar-nav {
+  justify-content: space-between;
+  width: 96%;
+  font-size: 14px;
+}
+
+.herodiv {
+  width: 100%;
+}
+
+.sliderdiv {
+  margin-top: 30px;
+}
+
+.owl-nav button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.owl-theme .owl-nav {
+  display: none;
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  margin-top: 14px;
+}
+
+.video-background {
+  /* position: relative; */
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+.video-background .content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  /* margin-top: 230px; */
+  top: 65%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -2;
+}
+.main-header-bar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.btnshopnow {
+  width: 225px;
+  height: 49px;
+  border: 0;
+  font-weight: 700;
+}
+
+.ourcolldiv {
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.colltxt {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 4px 14px;
+}
+.ourtxt {
+  color: #000000;
+  font-weight: bold;
+}
+
+img.trending-img {
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.text-overlay-our-women {
+  position: relative;
+  top: -40%;
+  right: 93%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.text-overlay-our-women h2 {
+  font-weight: 700;
+}
+.text-overlay-our-women a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.text-overlay-our-men {
+  position: relative;
+  top: -91%;
+  left: 6%;
+  color: #000000;
+}
+
+.text-overlay-our-men h2 {
+  font-weight: 700;
+}
+
+.text-overlay-our-men a {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.text-overlay-our-kids {
+  position: relative;
+  top: -91%;
+  left: 6%;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.text-overlay-our-kids h2 {
+  font-weight: 700;
+}
+
+.text-overlay-our-kids a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brandtxt {
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.trendtxt {
+  color: #000000;
+  font-weight: 700;
+}
+.brandpara {
+  font-weight: 400;
+  color: #5a5a5a;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.slider-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #bbb;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #717171;
+}
+
+/* Optional: Customize arrow styles */
+.slick-prev,
+.slick-next {
+  font-size: 30px;
+  color: #bbb;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #717171;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row > .col-12 {
+  padding: 0;
+}
+
+.custom-hr1 {
+  border: none;
+  border-top: 2px solid black;
+  margin: 20px 0; /* Adjust margin as needed */
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 991px) {
+  .iconnav {
+    display: none;
+  }
+  .herodiv {
+    margin-top: 18px;
+  }
+
+  .navmenutxt {
+    position: absolute;
+    top: 41px;
+
+    margin: 10px;
+  }
+  .hrdiv {
+    display: none;
+  }
+
+  .navbtnstyle {
+    margin-right: -27px;
+  }
+
+  .navtoplst {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .iconnav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 336px) {
+  .hrdiv {
+    display: none;
+  }
+
+  .navtoplst {
+    display: none;
+  }
+
+  .navmenutxt {
+    position: absolute;
+    top: 41px;
+
+    margin: 10px;
+  }
+
+  .primarynavbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 25px;
+  }
+  .navmenutxt {
+    position: absolute;
+    top: 79px;
+    margin: 10px;
+  }
+
+  .svgimg1 {
+    height: 17px;
+  }
+
+  .ms-2 {
+    font-size: 8px;
+  }
+
+  .txtaus {
+    font-size: 8px;
+  }
+
+  .navmenutxt {
+    position: absolute;
+    top: 45px;
+    margin: 10px;
+  }
+  .logotyle {
+    height: 20px;
+  }
+  .flagimg {
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 337px) and (max-width: 399px) {
+  .hrdiv {
+    display: none;
+  }
+
+  .navtoplst {
+    display: none;
+  }
+
+  .navmenutxt {
+    position: absolute;
+    top: 41px;
+
+    margin: 10px;
+  }
+
+  .primarynavbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 25px;
+  }
+  .navmenutxt {
+    position: absolute;
+    top: 79px;
+    margin: 10px;
+  }
+
+  .svgimg1 {
+    height: 17px;
+  }
+
+  .ms-2 {
+    font-size: 8px;
+  }
+
+  .txtaus {
+    font-size: 8px;
+  }
+
+  .navmenutxt {
+    position: absolute;
+    top: 45px;
+    margin: 10px;
+  }
+  .logotyle {
+    height: 20px;
+  }
+  .flagimg {
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1437px) and (max-width: 1443px) {
+  .video-background .content {
+    margin-top: 135px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1343px) {
+  /* .video-background .content {
+
+    margin-top: 135px;
+  } */
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+  .video-background {
+    margin-top: 34px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .trendtxt {
+    font-size: 26px;
+  }
+
+  .brandtxt {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 890px) {
+  .inputfooter {
+    width: 460px;
+    border: 0;
+  }
+}
+
+/* Blog CSS start */
+
+.blogstxt {
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.our-blogs {
+  color: #000000;
+  font-weight: bold;
+}
+
+.img-fluid {
+  border-radius: 0 !important;
+}
+
+.blog-txt-h1 {
+  font-weight: bold;
+  color: #000000;
+}
+
+.ul-blog {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  color: #333333;
+  font-size: 14px;
+}
+
+.read-blog {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.read-blog:hover {
+  color: red;
+}
+
+.read-blog:hover svg {
+  fill: red; /* Change to desired color on hover */
+}
+.para-blog {
+  color: #414141;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn-blog-seemore {
+  width: 190px;
+  height: 46px;
+  border: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Blog CSS end */
+
+/* Footer CSS code start here */
+
+.background-div {
+  /* Set background image */
+  background-image: url("./footerbgimg.png");
+
+  /* Set background size */
+  background-size: cover; /* Adjusts the size of the background image to cover the entire container */
+
+  /* Optional: Set background repeat */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+
+  /* Optional: Add other styling */
+
+  /* height: 400px; Adjust height as needed */
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity and color */
+}
+
+.footercol1 {
+  display: contents;
+}
+
+.footerform {
+  width: max-content;
+}
+
+.inputdivfooter {
+  padding: 5px;
+  width: 100%;
+  border: #ffffff;
+  border: solid 2px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  border-radius: 35px;
+}
+
+.inputfooter {
+  width: 300px;
+  border: 0;
+  padding-left: 15px;
+}
+
+.inputfooter:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+.footerbtn {
+  border: 0;
+  width: 160px;
+  color: #ffffff;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 35px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.hrfooter {
+  height: 1px !important;
+  /* background-color: #FFFFFF; */
+  color: #ffffff;
+  opacity: 1.25 !important;
+}
+
+.box {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer-div-col {
+  justify-content: space-between;
+}
+
+.footer-ultxt {
+  list-style: none;
+  font-size: 14px;
+}
+
+.footer-ultxt a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-ulsocial {
+  list-style: none;
+}
+
+.vertical-line {
+  border-left: 1px solid #fafafa; /* Adjust the color and thickness */
+  height: 170px; /* Adjust the height */
+  align-content: end;
+  margin-left: 50px;
+}
+
+.footerbottomdiv {
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.footerpara1 {
+  margin-top: 15px;
+}
+
+/*  */
+.logo-pos,
+.logo-pos-scroll {
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.svg-white svg path {
+  fill: white;
+  opacity: 1;
+}
+.svg-dark svg path {
+  fill: #000;
+  opacity: 1;
+}
+
+.fa-search {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: white;
+}
+.navigation-bar-frist .search-icons .form-control.light {
+  background-color: transparent;
+  border-bottom: 1px solid white !important;
+  color: white !important;
+}
+.navigation-bar-frist .search-icons .form-control.light::placeholder {
+  color: white !important;
+}
+.navigation-bar-frist .search-icons .form-control.dark {
+  background-color: white;
+}
+
+.logo-pos {
+  position: absolute;
+  top: 250px;
+  /* font-size: 200px; */
+  opacity: 0.5;
+}
+.logo-pos svg path {
+  fill: white;
+}
+.logo-pos svg {
+  width: 700px;
+  height: auto;
+}
+
+.logo-pos-scroll {
+  position: fixed;
+  top: 53px;
+  font-size: 38px;
+}
+
+@media screen and (max-width: 992px) {
+  .navigation-bar-second {
+    background: white;
+  }
+}
+
+/*  */
+
+/* media query */
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .inputfooter {
+    width: 300px;
+    border: 0;
+  }
+
+  .substxt {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  .inputfooter {
+    width: 200px;
+    border: 0;
+  }
+
+  .substxt {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+  .inputfooter {
+    width: 140px;
+    border: 0;
+  }
+
+  .substxt {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 891px) and (max-width: 1199px) {
+  .inputfooter {
+    width: 470px;
+    border: 0;
+  }
+
+  .vertical-line {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  .vertical-line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footerbottomdiv {
+    display: block !important;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 890px) {
+  .inputfooter {
+    width: 310px;
+    border: 0;
+  }
+
+  .substxt {
+    font-size: 20px;
+  }
+}
+
+/* Footer CSS code end */
